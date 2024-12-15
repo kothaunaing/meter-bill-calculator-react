@@ -1,0 +1,45 @@
+/** @format */
+
+.topbar {
+  display: flex;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(206, 206, 206);
+  position: relative;
+  padding-left: 10px;
+  padding-top: 3px;
+}
+
+.page-title {
+  position: absolute;
+  left: 20%;
+  right: 20%;
+  display: flex;
+  justify-content: center;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.back-button {
+  height: 40px;
+  width: 40px;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.back-icon {
+  height: 30px;
+}
+
+.back-button-dark {
+  background-color: rgb(172, 172, 172);
+}
+
+.back-button:hover {
+  background-color: rgb(240, 240, 240);
+}

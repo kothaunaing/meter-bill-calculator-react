@@ -1,0 +1,21 @@
+/** @format */
+
+.Message {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(248, 246, 246);
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.message-text {
+  font-weight: 600;
+}
+
+@keyframes slide {
+  from {
+    transform: translateY(-30px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

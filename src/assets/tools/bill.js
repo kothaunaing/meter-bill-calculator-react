@@ -1,0 +1,101 @@
+export const billHome = [
+  {
+    layer: 1,
+    startUnit: 1,
+    endUnit: 30,
+    perUnit: 35,
+    layerCost: 1050,
+  },
+  {
+    layer: 2,
+    startUnit: 31,
+    endUnit: 50,
+    perUnit: 50,
+    layerCost: 1000,
+  },
+  {
+    layer: 3,
+    startUnit: 51,
+    endUnit: 75,
+    perUnit: 70,
+    layerCost: 1750,
+  },
+  {
+    layer: 4,
+    startUnit: 76,
+    endUnit: 100,
+    perUnit: 90,
+    layerCost: 2250,
+  },
+  {
+    layer: 5,
+    startUnit: 101,
+    endUnit: 150,
+    perUnit: 110,
+    layerCost: 5500,
+  },
+  {
+    layer: 6,
+    startUnit: 151,
+    endUnit: 200,
+    perUnit: 120,
+    layerCost: 6000,
+  },
+  {
+    layer: 7,
+    startUnit: 201,
+    perUnit: 125,
+    layerCost: 0,
+  },
+];
+
+export const billBusiness = [
+  {
+    layer: 1,
+    startUnit: 1,
+    endUnit: 500,
+    perUnit: 125,
+    layerCost: 62500,
+  },
+  {
+    layer: 2,
+    startUnit: 501,
+    endUnit: 5000,
+    perUnit: 135,
+    layerCost: 607500,
+  },
+  {
+    layer: 3,
+    startUnit: 5001,
+    endUnit: 10000,
+    perUnit: 145,
+    layerCost: 725000,
+  },
+  {
+    layer: 4,
+    startUnit: 10001,
+    endUnit: 20000,
+    perUnit: 155,
+    layerCost: 1550000,
+  },
+  {
+    layer: 5,
+    startUnit: 20001,
+    endUnit: 50000,
+    perUnit: 165,
+    layerCost: 4950000,
+  },
+  {
+    layer: 6,
+    startUnit: 50001,
+    endUnit: 100000,
+    perUnit: 175,
+    layerCost: 8750000,
+  },
+  {
+    layer: 7,
+    startUnit: 100001,
+    perUnit: 180,
+    layerCost: 0,
+  },
+];
